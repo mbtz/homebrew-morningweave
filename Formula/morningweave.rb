@@ -1,9 +1,9 @@
 class Morningweave < Formula
   desc "Single-user CLI that builds a scheduled content digest"
   homepage "https://github.com/mbtz/morningweave"
-  url "https://github.com/mbtz/morningweave/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "356170660b098c3e9be6441a64f824be3f1062c89e0bd2b3c2d5bbc8c66b243b"
-  version "1.0.3"
+  url "https://github.com/mbtz/morningweave/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "bbae6c1b07696c8195c4a090fcce9e965eb08894e1a22eed6be0ef755165d25b"
+  version "1.1.0"
   head "https://github.com/mbtz/morningweave.git", branch: "main"
 
   depends_on "go" => :build
